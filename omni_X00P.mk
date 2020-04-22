@@ -35,6 +35,9 @@ PRODUCT_BRAND := asus
 PRODUCT_MODEL := ASUS_X00PD
 PRODUCT_MANUFACTURER := asus
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.product.board=MSM8937
+
 # Blacklist Properties
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
     ro.product.carrier \
