@@ -114,4 +114,23 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_INCLUDE_FUSE_EXFAT := true
 
 # NTFS Support
-TW_INCLUDE_FUSE_NTFS := true
+TW_INCLUDE_FUSE_NTFS := true 
+#SHRP_Variables
+SHRP_PATH := device/asus/XOOP
+SHRP_MAINTAINER := Flamefusion
+SHRP_DEVICE_CODE := XOOP
+SHRP_EDL_MODE := 1
+SHRP_EXTERNAL := /external_sd
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usbotg
+SHRP_REC := /dev/block/bootdevice/by-name/recovery 
+SHRP_REC_TYPE := Treble
+SHRP_DEVICE_TYPE := AB
+SHRP_FLASH := 0
+SHRP_STATUSBAR_RIGHT_PADDING := 40
+SHRP_STATUSBAR_LEFT_PADDING := 40
+# SHRP Express, enables on-the-fly theme patching (also persistent) + persistent lock
+SHRP_EXPRESS := true
+
+
+
