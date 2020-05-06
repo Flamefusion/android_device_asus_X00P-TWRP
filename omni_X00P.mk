@@ -17,11 +17,6 @@
 # Inherit Target Product stuff
 $(call inherit-product, build/target/product/embedded.mk)
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
-
-
-
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images
@@ -45,3 +40,8 @@ PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
     ro.product.carrier \
     ro.build.date \
     ro.build.date.utc
+
+
+
+
+
